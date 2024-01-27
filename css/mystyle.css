@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+}
+.vertical-line {
+    border: 1px solid white;
+    height: 100px;
+    width: 1px;
+    margin: 2rem;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 0;
+    max-width: 100vw;
+}
+.name {
+
+font-size: 2.7rem;
+font-weight:800;
+}
+header ul {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+li {
+padding:0.5ch;
+}
+.appointments {
+    padding: 1ch 1ch;
+    color: #e827c5;
+    border: 1px solid #e827c5;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 0;
+}
+.dark {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    margin: 0;
+
+}
+.pink {
+    color: #e827c5;
+}
+.intro {
+    width: 100vw;
+    background-image:url(/images/heart-hand-woman-nurse.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 40vh;    
+}
+.into__text {
+color: white; 
+text-align: center;
+margin: 0 auto;
+padding: 1vh;
+}
+.menu__header {
+    text-align: center;
+}
+.icons {
+    font-size: 4rem;
+    color: #e827c5;
+}
+.title {
+font-size: 1.4rem;
+font-weight: 700;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 100vw;
+}
+.menu__card {
+    max-width: 30%;
+}
+.top__card, .bottom__card {
+    background-color: #fffdfc;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 1px solid #a8a5a5;
+    padding: 2vw;
+    margin: 1vw 0;
+    box-shadow: 1px 2px 5px;
+
+}
+#services {
+    margin: 0;
+max-height: 650px;
+}
+.lab {
+    position: relative;
+    margin:0;
+    padding:0;
+    left: 5rem;
+    max-height: 600px;
+    max-width: 500px;
+}
+.tag{
+    background-color:#e827c5;
+    color: white;
+    max-width: 17ch;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 2ch 4ch;
+
+}
+.tag i {
+    font-size: 3rem;
+} 
+.article {
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    margin: 0;
+    position: relative;
+    top: -450px;
+}
+.article i{
+font-size: 3rem;
+color:#e827c5;
+margin: 0 0.5ch;
+
+
+}
+.article__more {
+    background-color: white;
+    max-width: 55vw;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+.patient {
+    position: relative;
+    top: 300px;
+    max-height:300px;
+    max-width: 350px;
+    border: 2px solid white;
+}
+.article__more ul{
+    list-style: none;
+    padding: 0;;
+    display: grid;
+    max-width: 55vw;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.article li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#contact {
+  background-image: url(/images/psychology-services.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    background-color: black;
+    color: white;
+  
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.2);
+    width: 100%;
+    height:100%;
+}
+.contact__header{
+    text-align: center;
+    width: 35ch;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.contact__media {
+  margin: 0 auto;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.align i{
+    font-size: 4rem;
+    padding: 0.5ch;
+}
+#contact button{
+    color: white;
+    padding: 1ch 2ch;
+    background-color: transparent;
+}
+.therapy {
+    overflow-x: hidden;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    min-width: 100vw;
+    padding: 1vh;
+
+}
+.description{
+    max-width: 40vw;}
+.options-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1ch;
+    padding: 2ch 1ch;
+
+}
+.option{
+    display: flex;
+    justify-content: center;
+    padding: 1ch 0;
+    align-items: center;
+    border: 1px solid #a8a5a5;
+    box-shadow: 1px 1px 5px;
+}
+.option i{
+    font-size: 2.5rem;
+
+
+}
+.option p{
+    padding: 1ch;
+    font-weight: 700;
+}
+.description h1{
+font-weight: 800;
+}
+.vertical{
+   text-orientation:mixed;
+   writing-mode: vertical-rl;
+   position: relative;
+   vertical-align: center; 
+   padding: 4ch 1ch;
+   font-size: 1.5rem;
+   border: 2px dashed #e827c5;
+   font-weight: 800;
+}
+.therapy span{
+    font-weight: 800;
+}
+.free{
+    max-width: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1ch 1ch;
+}
+.free p{
+    width: 25ch;
+    padding: 2ch;
+}
+.free button{
+    font-size: 1rem;
+    padding: 1ch;
+}
+.profile__header{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.profile ul{
+    list-style: none;
+    padding: 0;
+    display:  flex;
+    justify-content: space-around;
+}
+.profile li{
+padding: 2ch
+}
