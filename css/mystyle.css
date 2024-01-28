@@ -99,18 +99,17 @@ font-weight: 700;
     margin: 1vw 0;
     box-shadow: 1px 2px 5px;
 
+}/*
+#services{
+     background-image: url(/images/in-lab.webp.jpg);
+     background-repeat: no-repeat;
+     background-position: left;
+    background-color: yellow;
 }
-#services {
-    margin: 0;
-max-height: 650px;
-}
-.lab {
-    position: relative;
-    margin:0;
-    padding:0;
-    left: 5rem;
-    max-height: 600px;
-    max-width: 500px;
+.position{
+    position:relative;
+    display: flex;
+    flex-direction: row;
 }
 .tag{
     background-color:#e827c5;
@@ -119,44 +118,36 @@ max-height: 650px;
     text-align: center;
     font-size: 0.7rem;
     padding: 2ch 4ch;
+    position: absolute;
+    top: 20px;
+    left: 2rem;
+    z-index: 1;
 
 }
 .tag i {
     font-size: 3rem;
 } 
-.article {
-    display: flex;
-    justify-content: flex-end;
-    align-items:flex-start;
-    margin: 0;
-    position: relative;
-    top: -450px;
-}
-.article i{
-font-size: 3rem;
+#services i{
+font-size: 2rem;
 color:#e827c5;
 margin: 0 0.5ch;
-
-
 }
-.article__more {
+
+.article {
     background-color: white;
-    max-width: 55vw;
-    margin-left: 1rem;
     padding: 1rem;
+    position: absolute;
+    lefi
 }
 .patient {
-    position: relative;
-    top: 300px;
-    max-height:300px;
-    max-width: 350px;
     border: 2px solid white;
+
 }
-.article__more ul{
+.article ul{
     list-style: none;
     padding: 0;;
     display: grid;
-    max-width: 55vw;
+    max-width: 40ch;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
     align-items: center;
@@ -165,7 +156,7 @@ margin: 0 0.5ch;
     display: flex;
     justify-content: center;
     text-align: center;
-}
+}*/
 #contact {
   background-image: url(/images/psychology-services.jpg);
    background-repeat: no-repeat;
@@ -220,7 +211,7 @@ margin: 0 0.5ch;
     justify-content:space-between;
     align-items:center;
     min-width: 100vw;
-    padding: 1vh;
+    padding: 0 1vh;
 
 }
 .description{
@@ -242,8 +233,6 @@ margin: 0 0.5ch;
 }
 .option i{
     font-size: 2.5rem;
-
-
 }
 .option p{
     padding: 1ch;
@@ -282,7 +271,6 @@ font-weight: 800;
     padding: 1ch;
 }
 .profile__header{
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -296,4 +284,168 @@ font-weight: 800;
 }
 .profile li{
 padding: 2ch
+}
+.profile-card{
+    width: 250px;
+    height:500px;
+    position: relative;
+    
+}
+.profile-pic{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+}
+.profile-pic img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+.profile-detaile{ 
+    background-color: white;
+width:210px;
+text-align: center;
+position: absolute;
+top: 310px;
+left: 20px;
+border-radius: 10px;
+}
+.profile-detaile hr{
+    border: 2px solid #e827c5; 
+    width:70px; 
+    margin: 0 auto; 
+    padding: 0;  
+}
+.profile-detaile button{
+    color:#e827c5;
+    padding: 1ch 2ch;
+    margin: 0 auto;
+    border: 1px solid #e827c5;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.container {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: row;
+    justify-items: center;
+}
+.testimonials{
+
+    width: 40ch;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials__center{
+    width: 25ch;
+    text-align: left;
+    margin: 0 auto;
+    padding: 2px;
+    border-left: 1px solid #e827c5;
+}
+.profile__testemony {
+    display: flex;
+}
+.pink-card{
+    background-color: #e827c5;
+    color: white;
+}
+.award {
+    display: flex;
+}
+.award-1, .award-2{
+    width: 45vw;
+    height: 250px;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.award-1{
+    background-image: url(/images/award-1.webp);
+}
+.award-2{
+    background-image: url(/images/award-2.webp);
+}
+.cover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+}
+.cover i{
+ font-size: 2rem;
+}
+.awards h1 {
+    font-weight: 700;
+    text-align: center;
+}
+.social-media ul {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 4rem;
+    color: #383838;
+}
+
+.top-left{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-left i{
+    font-size: 3rem;
+}
+
+.login{
+
+    font-size: 1.5rem;
+    padding: 1ch 2ch;
+}
+.login input{
+    font-size: 1.5rem
+}
+.footer__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 2px;
+}
+.footer__middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__bottom ul{
+    display: flex;
+    justify-content: center;
+}
+.footer__bottom h1{
+    font-weight: 800;;
+}
+footer hr{
+    margin: 50px 0;
+}
+footer{
+background-color:#01385f ;
+color: white;
 }
